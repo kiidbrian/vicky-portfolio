@@ -14,7 +14,23 @@ import Preloader from "./components/preloader/Preloader";
 
 export const metadata: Metadata = {
   title: "Victoria Paintsil",
-  description: "Victoria Paintsil",
+  description:
+    "Victoria Paintsil - Experienced Assistant State Attorney at the Government of Ghana | Expert in Legal Representation, International Law & Arbitration | Providing Professional Legal Services and Consultation",
+  keywords: [
+    "Victoria Paintsil",
+    "Assistant State Attorney",
+    "Legal Representation",
+    "Legal Services",
+    "Legal Advice",
+    "Legal Consultation",
+    "Arbitration",
+    "International Law",
+    "State Attorney",
+  ],
+  openGraph: {
+    title: "Victoria Paintsil",
+    description: "Assistant State Attorney for the Government of Ghana",
+  },
 };
 
 export default function RootLayout({
