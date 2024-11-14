@@ -1,10 +1,6 @@
 import React from "react";
 
-interface FooterProps {
-  // Define props here
-}
-
-const Footer: React.FC<FooterProps> = (props) => {
+const Footer: React.FC = () => {
   return (
     <div className="footer">
       <div className="container">
