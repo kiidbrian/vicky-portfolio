@@ -8,9 +8,9 @@ import "./../../public/css/aos.css";
 import "./../../public/css/style.css";
 
 import "./globals.css";
-import BootstrapWrapper from "./bootstrap-client";
-import PageLayout from "./pageLayout";
-import Preloader from "./components/preloader/Preloader";
+// import BootstrapWrapper from "./bootstrap-client";
+// import PageLayout from "./pageLayout";
+// import Preloader from "./components/preloader/Preloader";
 
 export const metadata: Metadata = {
   title: "Victoria Paintsil",
