@@ -41,6 +41,45 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        {/* Site under renovation message */}
+        <div style={{
+          height: '100vh',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
+          padding: '20px',
+          textAlign: 'center'
+        }}>
+          <h1 style={{
+            fontSize: '2.5rem',
+            marginBottom: '1rem',
+            color: '#2d3436'
+          }}>
+            🚧 Website Under Renovation 🚧
+          </h1>
+          <p style={{
+            fontSize: '1.2rem',
+            maxWidth: '600px',
+            lineHeight: '1.6',
+            color: '#636e72'
+          }}>
+            We're currently updating our website to serve you better. 
+            Please check back soon for an enhanced experience.
+          </p>
+          <div style={{
+            marginTop: '2rem',
+            padding: '1rem 2rem',
+            background: '#2d3436',
+            color: 'white',
+            borderRadius: '30px',
+            boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
+          }}>
+            Coming Soon
+          </div>
+        </div>
+        {/* Commented out original code
         <div className="site-mobile-menu site-navbar-target">
           <div className="site-mobile-menu-header">
             <div className="site-mobile-menu-close">
@@ -52,6 +91,7 @@ export default function RootLayout({
         <PageLayout>{children}</PageLayout>
         <Preloader />
         <BootstrapWrapper />
+        */}
       </body>
     </html>
   );
