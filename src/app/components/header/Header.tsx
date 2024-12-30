@@ -1,11 +1,20 @@
+'use client';
+
 import React from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 interface HeaderProps {
   type?: boolean;
 }
 
 const Header: React.FC<HeaderProps> = () => {
+  const pathname = usePathname();
+
+  const isActive = (path: string) => {
+    return pathname === path ? "active" : "";
+  };
+
   return (
     <nav className="site-nav">
       <div className="container">
@@ -16,12 +25,12 @@ const Header: React.FC<HeaderProps> = () => {
             </Link>
 
             <ul className="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-              <li className="active">
+              <li className={isActive("/")}>
                 <Link href="/" className="">
                   Home
                 </Link>
               </li>
-              <li className="has-children">
+              <li className={`has-children ${isActive("/projects")}`}>
                 <Link href="/projects" className="">
                   Projects
                 </Link>
@@ -56,12 +65,12 @@ const Header: React.FC<HeaderProps> = () => {
                   Services
                 </Link>
               </li> */}
-              <li>
+              <li className={isActive("/about")}>
                 <Link href="/about" className="">
                   About
                 </Link>
               </li>
-              <li>
+              <li className={isActive("/contact")}>
                 <Link href="/contact" className="">
                   Contact
                 </Link>
