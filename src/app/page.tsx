@@ -1,6 +1,6 @@
 import Image from "next/image";
-import signature from "../../public/images/signature.png";
-import aboutMe from "../../public/images/about_me.jpg";
+// import signature from "../../public/images/signature.png";
+import aboutMe from "../../public/images/v2.jpeg";
 import BootstrapWrapper from "./bootstrap-client";
 
 export default function Home() {
@@ -14,30 +14,30 @@ export default function Home() {
               <div className="content" data-aos="fade-up">
                 <div className="v-line"></div>
                 <h2 className="heading mb-5">
-                  My promise to every client is to work tirelessly to obtain a
-                  just result.
+                  Championing Justice, Sustainability, and Innovation
                 </h2>
 
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics, a large language ocean.
+                  Welcome to my official website! As a lawyer specialising in
+                  Alternative Dispute Resolution and Arbitration with a passion
+                  for green economic transformation, I am dedicated to advancing
+                  sustainable development and supporting communities in need.
                 </p>
 
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country,
-                  in which roasted parts of sentences fly into your mouth.
+                  My work spans international arbitration, investment law,
+                  mental health advocacy, and tech-driven solutions. Explore my
+                  journey, my projects, and my vision for creating lasting
+                  impact.
                 </p>
 
-                <Image
+                {/* <Image
                   src={signature}
                   alt="Signature"
                   className="img-fluid signature"
                   width={100}
                   height={100}
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -56,13 +56,12 @@ export default function Home() {
 
                 <div className="box">
                   <p>
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large language ocean. A small
-                    river named Duden flows by their place and supplies it with
-                    the necessary regelialia. It is a paradisematic country, in
-                    which roasted parts of sentences fly into your mouth.
+                    I’m Victoria Paintsil, an attorney with a diverse background
+                    in law, arbitration, and community advocacy. With experience
+                    spanning Ghana, the UK, and beyond, I bring a unique
+                    perspective to legal practice, combining international
+                    exposure, a commitment to social impact, and innovative
+                    thinking.
                   </p>
                 </div>
               </div>
@@ -73,13 +72,15 @@ export default function Home() {
                   data-aos="fade-left"
                   data-aos-delay="100"
                 >
-                  <Image
-                    src={aboutMe}
-                    alt="Image"
-                    className="img-fluid"
-                    width={751}
-                    height={771}
-                  />
+                  <div style={{ height: '600px', overflow: 'hidden' }}>
+                    <Image
+                      src={aboutMe}
+                      alt="Image"
+                      className="img-fluid"
+                      width={751}
+                      height={771}
+                    />
+                  </div>
                 </div>
               </div>
             </div>

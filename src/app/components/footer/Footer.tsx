@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
@@ -9,17 +10,16 @@ const Footer: React.FC = () => {
             <div className="widget">
               <h3 className="widget-heading">About Me</h3>
               <p>
-                There live the blind texts. Separated they live in
-                Bookmarksgrove right at the coast of the Semantics, a large
-                language ocean.
+                An attorney with global experience in law, arbitration, and
+                community advocacy, driven by innovation and social impact.
               </p>
               <p className="mb-0">
-                <a
-                  href="#"
+                <Link
+                  href="/about"
                   className="btn btn-primary btn-primary-hover-outline"
                 >
                   Learn more
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -34,36 +34,18 @@ const Footer: React.FC = () => {
                   <a href="#">About me</a>
                 </li>
                 <li>
-                  <a href="#">Clients</a>
-                </li>
-                <li>
-                  <a href="#">Find Us</a>
-                </li>
-                <li>
-                  <a href="#">Webinars</a>
-                </li>
-                <li>
-                  <a href="#">Privacy Policy</a>
+                  <a href="#">Contact</a>
                 </li>
               </ul>
               <ul className="list-unstyled float-start">
                 <li>
-                  <a href="#">Overview</a>
-                </li>
-                <li>
-                  <a href="#">About Me</a>
-                </li>
-                <li>
-                  <a href="#">Services</a>
+                  <a href="#">Projects</a>
                 </li>
                 <li>
                   <a href="#">Portfolio</a>
                 </li>
                 <li>
-                  <a href="#">Gallery</a>
-                </li>
-                <li>
-                  <a href="#">Contact Us</a>
+                  <a href="#">Blog</a>
                 </li>
               </ul>
             </div>

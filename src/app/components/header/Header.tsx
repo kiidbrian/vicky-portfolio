@@ -26,13 +26,16 @@ const Header: React.FC<HeaderProps> = () => {
                   Projects
                 </Link>
                 <ul className="dropdown">
-                    <li>
-                      <a href="#">Menu One</a>
-                    </li>
-                    <li>
-                      <a href="#">Menu Two</a>
-                    </li>
-                    <li className="has-children">
+                  <li>
+                    <a href="#">Harmony Haven Foundation</a>
+                  </li>
+                  <li>
+                    <a href="#">Young Diplomats of Ghana (YDG) Leadership</a>
+                  </li>
+                  <li>
+                    <a href="#">The LawPrep</a>
+                  </li>
+                  {/* <li className="has-children">
                       <a href="#">Dropdown</a>
                       <ul className="dropdown">
                         <li>
@@ -45,14 +48,14 @@ const Header: React.FC<HeaderProps> = () => {
                           <a href="#">Sub Menu Three</a>
                         </li>
                       </ul>
-                    </li>
-                  </ul>
+                    </li> */}
+                </ul>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/services" className="">
                   Services
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/about" className="">
                   About
