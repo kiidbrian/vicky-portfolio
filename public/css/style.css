@@ -2864,3 +2864,39 @@ textarea {
 .social-link:hover {
   color: #d79100;
 }
+
+.project-card {
+  display: block;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.project-card p {
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 1.5rem;
+}
+
+.read-more {
+  color: #d79100;
+  font-weight: 500;
+}
+
+.project-card:hover .read-more {
+  text-decoration: underline;
+}
