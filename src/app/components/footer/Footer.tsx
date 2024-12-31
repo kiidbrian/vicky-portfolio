@@ -92,12 +92,14 @@ const Footer: React.FC = () => {
           <div className="col-md-6 col-lg-3 pl-lg-5">
             <div className="widget">
               <h3 className="widget-heading">Recent Posts</h3>
-              {/* <ul className="list-unstyled footer-blog-entry">
+              <ul className="list-unstyled footer-blog-entry">
                 <li>
-                  <span className="d-block date">May 3, 2020</span>
-                  <a href="#">There live the Blind Texts</a>
+                  <span className="d-block date">December 31, 2024</span>
+                  <Link href="/blog/lcia-costs-and-duration-analysis">
+                    Examining the LCIA Costs and Duration Analysis (2017–2024)
+                  </Link>
                 </li>
-                <li>
+                {/* <li>
                   <span className="d-block date">May 3, 2020</span>
                   <a href="#">Separated they live in Bookmarksgrove right</a>
                 </li>
@@ -108,8 +110,8 @@ const Footer: React.FC = () => {
                 <li>
                   <span className="d-block date">May 3, 2020</span>
                   <a href="#">Large Language Ocean</a>
-                </li>
-              </ul> */}
+                </li> */}
+              </ul>
             </div>
           </div>
         </div>

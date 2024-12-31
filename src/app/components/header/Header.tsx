@@ -30,6 +30,11 @@ const Header: React.FC<HeaderProps> = () => {
                   Home
                 </Link>
               </li>
+              <li className={isActive("/about")}>
+                <Link href="/about" className="">
+                  About
+                </Link>
+              </li>
               <li className={`has-children ${isActive("/projects")}`}>
                 <Link href="/projects" className="">
                   Projects
@@ -65,11 +70,6 @@ const Header: React.FC<HeaderProps> = () => {
                   Services
                 </Link>
               </li> */}
-              <li className={isActive("/about")}>
-                <Link href="/about" className="">
-                  About
-                </Link>
-              </li>
               <li className={isActive("/contact")}>
                 <Link href="/contact" className="">
                   Contact
