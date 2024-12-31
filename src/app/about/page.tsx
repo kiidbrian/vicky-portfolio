@@ -10,14 +10,15 @@ export default function About() {
               <h2 className="heading mb-5">Introduction</h2>
 
               <p className="mb-5">
-                I’m Victoria Paintsil, an attorney with a diverse background in
-                law, arbitration, and community advocacy. With experience
-                spanning Ghana, the UK, and beyond, I bring a unique perspective
-                to legal practice, combining international exposure, a
-                commitment to social impact, and innovative thinking. My journey
-                in law began in India, where I studied for five years, and has
-                since taken me to the Ghana Bar Association, the Attorney
-                General’s office, and prominent arbitration bodies.
+                I&apos;m Victoria Paintsil, an attorney with a diverse
+                background in law, arbitration, and community advocacy. With
+                experience spanning Ghana, the UK, and beyond, I bring a unique
+                perspective to legal practice, combining international exposure,
+                a commitment to social impact, and innovative thinking. My
+                journey in law began in India, where I studied for five years,
+                and has since taken me to the Ghana Bar Association, the
+                Attorney General&apos;s office, and prominent arbitration
+                bodies.
               </p>
 
               <div className="education-section mb-5">
@@ -46,7 +47,7 @@ export default function About() {
                 <h3 className="heading3">Experience</h3>
                 <ul className="qualification-list">
                   <li>
-                    <h5>Work at Attorney General's Office (Ghana)</h5>
+                    <h5>Work at Attorney General&apos;s Office (Ghana)</h5>
                     <p>
                       As a representative of the Office of the Attorney General
                       and Ministry of Justice, I have handled complex cases in
@@ -61,9 +62,9 @@ export default function About() {
                     <p>
                       I co-founded Box2Ship, a tech-driven shipping solution in
                       Scotland, where I provide legal guidance and support the
-                      startup’s mission to revolutionise shipping services. This
-                      project aligns with my interest in using technology to
-                      create impactful, scalable solutions
+                      startup&apos;s mission to revolutionise shipping services.
+                      This project aligns with my interest in using technology
+                      to create impactful, scalable solutions
                     </p>
                   </li>
                 </ul>
