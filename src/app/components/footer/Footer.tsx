@@ -123,7 +123,7 @@ const Footer: React.FC = () => {
               Built with{" "}
               <i className="icon-heart text-danger" aria-hidden="true"></i> by{" "}
               <a
-                href="https://kiidbrian.github.io"
+                href="https://paapa.dev"
                 target="_blank"
                 rel="nofollow noopener"
               >
