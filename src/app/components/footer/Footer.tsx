@@ -28,24 +28,24 @@ const Footer: React.FC = () => {
               <h3 className="widget-heading">Navigation</h3>
               <ul className="list-unstyled float-start me-5">
                 <li>
-                  <a href="#">Overview</a>
+                  <Link href="/">Overview</Link>
                 </li>
                 <li>
-                  <a href="#">About me</a>
+                  <Link href="/about">About me</Link>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </ul>
               <ul className="list-unstyled float-start">
                 <li>
-                  <a href="#">Projects</a>
+                  <Link href="/projects">Projects</Link>
                 </li>
                 <li>
-                  <a href="#">Portfolio</a>
+                  <Link href="#">Portfolio</Link>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <Link href="/#">Blog</Link>
                 </li>
               </ul>
             </div>

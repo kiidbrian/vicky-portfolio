@@ -1,8 +1,10 @@
 "use client";
 
 import {useEffect} from "react";
+import {usePathname} from "next/navigation";
 
 const BootstrapClient = () => {
+  const pathname = usePathname();
   useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/no-require-imports
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
@@ -21,7 +23,7 @@ const BootstrapClient = () => {
         require("../../public/js/custom.js");
       }, 100);
     }
-  }, []);
+  }, [pathname]);
 
   return null;
 };

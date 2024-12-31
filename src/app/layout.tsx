@@ -53,9 +53,9 @@ Readonly<{
           </div>
           <div className="site-mobile-menu-body"></div>
         </div>
-        <PageLayout>{children}</PageLayout>
         <Preloader />
         <BootstrapWrapper />
+        <PageLayout>{children}</PageLayout>
       </body>
     </html>
   );

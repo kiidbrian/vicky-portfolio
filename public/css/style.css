@@ -1747,6 +1747,7 @@ textarea.form-control {
   top: 0;
   z-index: 9;
   width: 100%;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .site-nav {
