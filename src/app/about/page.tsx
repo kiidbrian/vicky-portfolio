@@ -24,19 +24,21 @@ export default function About() {
               <div className="education-section mb-5">
                 <h3 className="heading3">Education & Qualifications</h3>
                 <ul className="qualification-list">
-                  <li>LLB, [University], India</li>
+                  <li>LLB, India</li>
                   <li>
-                    LLM Candidate, Alternative Dispute Resolution, University of
-                    Ghana
+                    LLM, Alternative Dispute Resolution, University of Ghana
                   </li>
                   <li>
                     Professional Memberships:
                     <ul>
-                      <li>Member, Chartered Institute of Arbitrators</li>
+                      <li>
+                        Member, Chartered Institute of Arbitrators (Ghana
+                        Chapter)
+                      </li>
                       <li>Member, Association of Young Arbitrators (AYA)</li>
                       <li>
                         Member, Network of Women in Law and Policy Against
-                        Organized Crime
+                        Organized Crime (UNODC)
                       </li>
                     </ul>
                   </li>
@@ -50,21 +52,28 @@ export default function About() {
                     <h5>Work at Attorney General&apos;s Office (Ghana)</h5>
                     <p>
                       As a representative of the Office of the Attorney General
-                      and Ministry of Justice, I have handled complex cases in
-                      civil litigation and provided counsel on investor-state
-                      disputes. My work has focused on upholding justice and
-                      advocating for a fair legal system in Ghana and across
-                      borders.
+                      and Ministry of Justice, I have participated in civil
+                      litigation and investor-state disputes. My work has
+                      focused on upholding justice and advocating for a fair
+                      legal system in Ghana and across borders.
                     </p>
                   </li>
                   <li>
                     <h5>Projects in Tech and Entrepreneurship</h5>
                     <p>
-                      I co-founded Box2Ship, a tech-driven shipping solution in
-                      Scotland, where I provide legal guidance and support the
-                      startup&apos;s mission to revolutionise shipping services.
-                      This project aligns with my interest in using technology
-                      to create impactful, scalable solutions
+                      I co-founded{" "}
+                      <a
+                        href="https://box2ship.co"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Box2Ship
+                      </a>
+                      , a tech-driven shipping solution in Scotland, where I
+                      provide legal guidance and support the startup&apos;s
+                      mission to revolutionise shipping services. This project
+                      aligns with my interest in using technology to create
+                      impactful, scalable solutions
                     </p>
                   </li>
                 </ul>

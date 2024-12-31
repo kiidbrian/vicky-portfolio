@@ -12,16 +12,21 @@ export default function Projects() {
               <h2 className="heading mb-5">Projects & Initiatives</h2>
 
               <p>
-                As a lawyer specialising in Alternative Dispute Resolution and
-                Arbitration with a passion for green economic transformation, I
-                am dedicated to advancing sustainable development and supporting
-                communities in need.
+                My initiatives, LawPrep Project and Harmony Haven Foundation,
+                are driven by a passion for education and social impact. The
+                LawPrep Project empowers aspiring lawyers by offering mentorship
+                and training to help them navigate their career paths and
+                identify areas of specialization, bridging the gap in legal
+                career guidance.
               </p>
 
               <p>
-                My work spans international arbitration, investment law, mental
-                health advocacy, and tech-driven solutions. Explore my journey,
-                my projects, and my vision for creating lasting impact.
+                Harmony Haven Foundation focuses on supporting mental health in
+                marginalized communities by organizing events and providing
+                resources to individuals dealing with addiction, homelessness,
+                and other challenges. Together, these projects reflect my
+                commitment to fostering education, reducing mental health
+                stigma, and creating meaningful change in society.
               </p>
 
               <div className="projects-grid mt-5">

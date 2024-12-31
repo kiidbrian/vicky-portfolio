@@ -119,13 +119,13 @@ export default function LCIA() {
 
               <div className="pdf-section mt-4 mb-5">
                 <a
-                  href="/pdfs/lcia.pdf"
+                  href="https://www.lcia.org/utility/emaillink.aspx?campaignemaillinkid=11572&campaignemailrecipientrowid=27886 "
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary d-inline-flex align-items-center"
                 >
                   <i className="bi bi-file-pdf me-2"></i>
-                  Download Full Analysis (PDF)
+                  Download Full Report (PDF)
                 </a>
               </div>
 
