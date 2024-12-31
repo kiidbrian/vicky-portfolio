@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
 import React from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import {usePathname} from "next/navigation";
 
 interface HeaderProps {
   type?: boolean;
@@ -47,7 +47,7 @@ const Header: React.FC<HeaderProps> = () => {
                     <a href="#">Young Diplomats of Ghana (YDG) Leadership</a>
                   </li>
                   <li>
-                    <a href="#">The LawPrep</a>
+                    <a href="#">The LawPrep Project</a>
                   </li>
                   {/* <li className="has-children">
                       <a href="#">Dropdown</a>

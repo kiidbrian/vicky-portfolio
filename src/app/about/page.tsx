@@ -25,9 +25,7 @@ export default function About() {
                 <h3 className="heading3">Education & Qualifications</h3>
                 <ul className="qualification-list">
                   <li>LLB, India</li>
-                  <li>
-                    LLM, Alternative Dispute Resolution, University of Ghana
-                  </li>
+                  <li>LLM, Alternative Dispute Resolution, Ghana</li>
                   <li>
                     Professional Memberships:
                     <ul>
