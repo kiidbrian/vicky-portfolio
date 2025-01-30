@@ -1,6 +1,6 @@
 "use client";
-import { usePathname } from "next/navigation";
-
+import {usePathname} from "next/navigation";
+import Link from "next/link";
 export default function PostLayout({children}: {children: React.ReactNode}) {
   const pathname = usePathname();
   const isBlogPage = pathname.endsWith("/blog");
@@ -16,9 +16,9 @@ export default function PostLayout({children}: {children: React.ReactNode}) {
               {children}
 
               {!isBlogPage && (
-                <a href="/blog" className="read-more">
+                <Link href="/blog" className="read-more">
                   ← Back to Blog
-                </a>
+                </Link>
               )}
             </div>
           </div>
