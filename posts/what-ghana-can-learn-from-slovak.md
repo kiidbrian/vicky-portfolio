@@ -1,5 +1,5 @@
 ---
-title: "What Ghana Can Learn from Slovak Republic's Success in International Investment Arbitration?"
+title: "What Can Ghana Learn from Slovak Republic's Success in International Investment Arbitration?"
 date: "2025-01-22"
 excerpt: "The Slovak Republic's success in international investment arbitration offers valuable lessons for Ghana's arbitration landscape. This article explores the key factors that have contributed to Slovak Republic's success, and how Ghana can learn from these lessons."
 ---

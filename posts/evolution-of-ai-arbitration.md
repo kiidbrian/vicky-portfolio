@@ -17,7 +17,7 @@ When examining the platform's features, cost appears to be a central focus. Trad
 
 ##### Considering Implementation in Ghana
 
-The potential implementation of such technology in regions like Ghana raises several considerations worth examining. Ghana's arbitration framework is governed by the Alternative Dispute Resolution Act of 2010 (Act 798), which was developed with traditional arbitration in mind. The legal status of AI-generated arbitration awards under both Ghanaian and international law remains an open question that would need to be addressed.
+The potential implementation of such technology in regions like Ghana raises several considerations worth examining. The country's arbitration institutions currently operate with human arbitrators. The legal status of AI-generated arbitration awards under both Ghanaian and international law remains an open question that would need to be addressed.
 
 ##### Infrastructure and Institutional Considerations
 
