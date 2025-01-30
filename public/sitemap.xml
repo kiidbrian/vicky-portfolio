@@ -9,32 +9,42 @@
 
 <url>
   <loc>https://www.victoriapaintsil.com/</loc>
-  <lastmod>2024-12-31T01:59:30+00:00</lastmod>
+  <lastmod>2025-01-30T01:42:37+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.victoriapaintsil.com/about</loc>
-  <lastmod>2024-12-31T01:59:30+00:00</lastmod>
+  <lastmod>2025-01-30T01:42:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.victoriapaintsil.com/projects</loc>
-  <lastmod>2024-12-31T01:59:30+00:00</lastmod>
+  <lastmod>2025-01-30T01:42:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.victoriapaintsil.com/blog</loc>
+  <lastmod>2025-01-30T01:42:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.victoriapaintsil.com/contact</loc>
-  <lastmod>2024-12-31T01:59:30+00:00</lastmod>
+  <lastmod>2025-01-30T01:42:37+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.victoriapaintsil.com/blog/evolution-of-ai-arbitration</loc>
+  <lastmod>2025-01-30T01:42:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.victoriapaintsil.com/blog/what-ghana-can-learn-from-slovak</loc>
+  <lastmod>2025-01-30T01:42:37+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.victoriapaintsil.com/blog/lcia-costs-and-duration-analysis</loc>
-  <lastmod>2024-12-31T01:59:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.victoriapaintsil.com/pdfs/lcia.pdf</loc>
-  <lastmod>2024-12-31T01:59:30+00:00</lastmod>
+  <lastmod>2025-01-30T01:42:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
