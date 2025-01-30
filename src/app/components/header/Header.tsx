@@ -12,7 +12,10 @@ const Header: React.FC<HeaderProps> = () => {
   const pathname = usePathname();
 
   const isActive = (path: string) => {
-    return pathname === path ? "active" : "";
+    if (path === "/") {
+      return pathname === "/" ? "active" : "";
+    }
+    return pathname.startsWith(path) ? "active" : "";
   };
 
   return (
@@ -64,6 +67,11 @@ const Header: React.FC<HeaderProps> = () => {
                       </ul>
                     </li> */}
                 </ul>
+              </li>
+              <li className={isActive("/blog")}>
+                <Link href="/blog" className="">
+                  Blog
+                </Link>
               </li>
               {/* <li>
                 <Link href="/services" className="">
