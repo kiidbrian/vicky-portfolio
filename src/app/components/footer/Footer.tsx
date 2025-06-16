@@ -94,9 +94,10 @@ const Footer: React.FC = () => {
               <h3 className="widget-heading">Recent Posts</h3>
               <ul className="list-unstyled footer-blog-entry">
                 <li>
-                  <span className="d-block date">January 29, 2025</span>
-                  <Link href="/blog/evolution-of-ai-arbitration">
-                    The Evolution of AI in Arbitration: Examining Arbitrus AI
+                  <span className="d-block date">June 16, 2025</span>
+                  <Link href="/blog/a-new-era-for-peaceful-adr">
+                    A New Era for Peaceful Dispute Resolution: Inside the
+                    International Organization for Mediation (IOMed)
                   </Link>
                 </li>
                 {/* <li>
