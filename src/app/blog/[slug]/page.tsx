@@ -1,6 +1,7 @@
 import {formatDate} from "@/utils/date";
 import {getPostBySlug} from "../../../../lib/posts";
 import {Metadata} from "next";
+import BlogPostTracker from "../../components/analytics/BlogPostTracker";
 
 type Post = {
   title: string;
@@ -24,6 +25,13 @@ export default async function BlogPostPage(props: {
 
   return (
     <article className="max-w-2xl mx-auto py-10">
+      {/* Analytics Tracking Component */}
+      <BlogPostTracker
+        postTitle={post.title}
+        postSlug={Array.isArray(slug) ? slug[0] : slug}
+        postDate={post.date}
+      />
+
       <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
       {post.date && (
         <p className="text-gray-500 text-sm">{formatDate(post.date)}</p>

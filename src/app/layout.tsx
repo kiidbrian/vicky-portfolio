@@ -11,6 +11,9 @@ import "./globals.css";
 import BootstrapWrapper from "./bootstrap-client";
 import PageLayout from "./pageLayout";
 import Preloader from "./components/preloader/Preloader";
+import GoogleAnalytics from "./components/analytics/GoogleAnalytics";
+import VercelAnalytics from "./components/analytics/VercelAnalytics";
+import CookieConsent from "./components/analytics/CookieConsent";
 
 export const metadata: Metadata = {
   title: "Victoria Paintsil",
@@ -56,6 +59,11 @@ Readonly<{
         <Preloader />
         <BootstrapWrapper />
         <PageLayout>{children}</PageLayout>
+
+        {/* Analytics */}
+        <GoogleAnalytics />
+        <VercelAnalytics />
+        <CookieConsent />
       </body>
     </html>
   );
